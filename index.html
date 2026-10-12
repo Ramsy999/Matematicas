@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Matematicas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <header>
+            <h1>El mundo de las Matematicas</h1>
+            <nav id="menu">
+                <a href="#angulo">Ángulos</a>
+                <a href="#GMS-rad">Conversiones de Grados-Radianes</a>
+                <a href="#triangulos">Triangulos Semejantes y Congruentes</a>
+                <a href="#PolarRect">Coordenadas Polares y Rectangulares</a>
+                <a href="#convRectPol">Conversiones de Polares y Rectangulares</a>
+            </nav>
+        </header>
+        <p>
+            En esta pagina web se mostrara algunos conceptos basados en los apuntes
+            en la libreta de Aplicaciones del Pensamiento Matematico, esta pagina web es teorica eh interactiva
+        </p>
+       <hr> <dl>
+            <dt><h2 id="angulo">¿Ques un Angulo?</h2></dt>
+            <dd>Es la porción del plano comprendido entre dos semirectas que tienen origen común es denominado vértice , mientras que las semirectas son los lados del ángulo.</dd>
+        </dl>
+        <h2>Tipos de Ángulos:</h2>
+        <h3>Según su medida:</h3>
+        <table border="3">
+            <tr>
+                <th>Ángulo</th>
+                <th>Descripción</th>
+                <th>Imagen</th>
+            </tr>
+            <tr>
+                <td>Ángulo agudo</td>
+                <td>Es aquel cuya abertura mide más de 0° y menos de 90°. Es el ángulo mas cerrado</td>
+                <td><img src="Agudo.png" alt="es una imagen"></td>
+            </tr>
+            <tr>
+                <td>Ángulo Recto</td>
+                <td>Es aquel que mide exactamente 90° sus 2 lados son perpendiculares entre si. Es el ángulo que forma la esquina de un cuadrado</td>
+                <td><img src="Recto.png" alt="es una imagen"></td>
+            </tr>
+            <tr>
+                <td>Ángulo Obtuso</td>
+                <td>Es aquel que mide más de 90° y menos de 180°. Es más abierto que el recto</td>
+                <td><img src="Obtuso.png" alt="es una imagen"></td>
+            </tr>
+            <tr>
+                <td>Ángulo Llano </td>
+                <td>Es aquel que mide exactamente 180°. Es más abierto que el recto</td>
+                <td><img src="Llano.png" alt="es una imagen"></td>
+            </tr>
+            <tr>
+                <td>Ángulo Completo</td>
+                <td>Es aquel que mide 360°, abarca toda la circunferencia</td>
+                <td><img src="Completo.png" alt="es una imagen"></td>
+            </tr>
+            <tr>
+                <td>Ángulo Nulo</td>
+                <td>Es aquel cuya abertura es de 0°. No existe separación entre sus lados</td>
+                <td><img src="Nulo.png" alt="es una imagen"></td>
+            </tr>
+            <tr>
+                <td>Ángulo Cóncavo</td>
+                <td>Es aquel que mide mas de 180° y menos de 360°</td>
+                <td><img src="Concavo.png" alt="es una imagen"></td>
+            </tr>
+        </table>
+        <h3>Según su posición:</h3>
+        <table border="3">
+            <tr>
+                <th>Ángulo</th>
+                <th>Descripción</th>
+                <th>Imagen</th>
+            </tr>
+            <tr>
+                <td>Ángulos Consecutivas</td>
+                <td>Son las que comparten el mismo vértice y un lado común</td>
+                <td><img src="Conjugado.png" alt="es una imagen"></td>
+            </tr>
+            <tr>
+                <td>Ángulos Adyacentes</td>
+                <td>Son consecutivas y además sus lados comunes forman un ángulo de 180°</td>
+                <td><img src="Adyacente.png" alt="es una imagen"></td>
+            </tr>
+            <tr>
+                <td>Ángulos Opuestos por el Vértice</td>
+                <td>Son los vértices que froman al cruzarse dos rectas. Están uno frente de otro y siempre miden lo mismo</td>
+                <td><img src="OpuestosVer.png" alt="es una imagen"></td>
+            </tr>
+        </table>
+        <h3>Según su suma:</h3>
+        <table border="3">
+            <tr>
+                <th>Ángulo</th>
+                <th>Descripción</th>
+                <th>Imagen</th>
+            </tr>
+            <tr>
+                <td>Ángulos Complementarios</td>
+                <td>Son dos ángulos que al sumarse da como resultado 90°</td>
+                <td><img src="Complementarios.png" alt="es una imagen"></td>
+
+            </tr>
+            <tr>
+                <td>Ángulos Suplementarios</td>
+                <td>Son dos ángulos que al sumarse dan como resultado 180°</td>
+                <td><img src="Suplementarios.png" alt=""></td>
+            </tr>
+        </table>
+        <h3>2 rectas paralelas son cortados por una transversal(o secante)</h3>
+        <p>Se forman ocho ángulos en total que guardan relaciones de igualdad o suman 180° entre si.</p>
+        <img src="2Rectas.png" alt="es una imagen">
+        <ul>
+            <li><h4>Correspondientes:</h4>Están en la misma esquina, uno arriba y uno abajo. Son iguales. <br>
+            <img src="Correspondientes.png" alt="es una imagen"></li>
+            <li><h4>Alternos internos:</h4>Están dentro de las paralelas, en lados opuestos de la secante. Miden lo mismo. <br>
+            <img src="AltInternos.png" alt="es una imagen"></li>
+            <li><h4>Alternos externos:</h4>Están fuera de las paralelas, en lados opuestos. Miden lo mismo. <br>
+            <img src="AltExternos.png" alt="es una imagen"></li>
+            <li><h4>Colaterales / conjugados:</h4>Están del mismo lado de la secante, suman 180°. No son iguales, sino suplementarios. <br>
+            <img src="Conjugados.png" alt="es una imagen"></li>
+        </ul>
+        <h3>Formas de medidas para los ángulos</h3>
+        <p>Los ángulos se miden principalmente en grados sexagesimales y en radianes mediante el uso de medidas y herraminetas geometricas</p>
+        <ul>
+            <li><dl>
+                <dt><h5>Grados sexagesimal(°):</h5></dt>
+                <dd>Divide una circunferencia completa en 360° partes iguales. Cada grado se divide en 60 minutos(') y cada minuto en 60 segundos(''). Es el sistema más común en la vida diaria y la educación básica</dd>
+            </dl><br>
+            <img src="GradosSex.png" alt="es una imagen"></li>
+            <li><dl>
+                <dt><h5>Radianes(rad):</h5></dt>
+                <dd>Es la unidad natural en Matematicas y Calculo. Un radián es el ángulo central de un circulo donde la longitud del arco es igual al radio. Una vuelta completa equivale a 2 pi radianes (aprox. 6.28 rad)</dd>
+            </dl><br>
+            <img src="Radianes.png" alt="es una imagen"></li>
+        </ul>
+        <hr>
+        <h2 id="GMS-rad">Conversión de Grados-minutos-segundos a grados decimales, grados decimales a radianes y viceversa</h2>
+        <form id="conv" onsubmit="return false">
+            <fieldset>
+                <legend>Grados-minutos-segundos => decimales</legend>
+                Grado (0° a 360°):
+                <input type="number" name="g" id="g" step="any"><br><br>
+                Minutos (0' a 59'):
+                <input type="number" name="m" id="m" step="any"><br><br>
+                Segundos (0'' a 59''):
+                <input type="number" name="s" id="s" step="any"><br><br>
+                <button onclick="dmsADec()">Convertir</button><br>
+                <button type="reset">Limpiar</button>
+                <br><br>
+                Resultado:
+                <input type="number" name="res" id="res" step="any" readonly>
+            </fieldset>
+            <fieldset>
+                <legend>Grados decimales => radianes</legend>
+                Grados decimales:
+                <input type="number" name="des2" id="des2" step="any"><br><br>
+                <button onclick="decARad()">Convertir</button>
+                <button type="reset">Limpiar</button>
+                <br><br>
+                Resultado:
+                <input type="number" name="rad" id="rad" step="any" readonly>
+            </fieldset>
+            <fieldset>
+                <legend>Radianes => grados deciamles => GMS</legend>
+                Radianes:
+                <input type="number" name="rad2" id="rad2" step="any"><br><br>
+                 <button onclick="radAGrados()">Convertir</button><br><br>
+                 <button type="reset">Limpiar</button>
+                 Resultado GradosDec:
+                 <input type="number" name="grdesc" id="grdesc" step="any" readonly>
+                 Resultado GMS: <br>
+                 <ul>
+                    <li>Grados(°):
+                        <input type="number" name="g2" id="g2" readonly>
+                    </li>
+                    <li>Minutos('):
+                        <input type="number" name="m2" id="m2" readonly>
+                    </li>
+                    <li>Segundos(''):
+                        <input type="number" name="s2" id="s2" step="any" readonly>
+                    </li>
+                 </ul>
+            </fieldset>
+        </form>
+        <hr>
+        <h2 id="triangulos">Triangulos Semejantes y Congruentes</h2>
+        <ol>
+            <li><dl>
+                <dt><h4>Triangulo Semejante</h4></dt>
+                <dd>Ocurre cuando dos triángulos tienen la misma forma, aunque sus tamaños sean diferentes.</dd>
+            </dl><br>
+            <img src="Semejantes.png" alt="es una imagen"><ul>
+                <li><h5>Ángulo-Ángulo:</h5> Tiene dos ángulos correspondientes con la misma medida. Si dos ángulos son iguales, el tercer ángulo también lo será.</li>
+                <li><h5>Lado-Lado-Lado:</h5> Sus tres pares de lados correspondientes son proporcionales.</li>
+                <li><h5>Lado-Ángulo-Lado:</h5>Tienen un ángulo igual y los dos lados que lo forman son proporcionales en ambos triángulos.</li>
+            </ul></li>
+            <li><dl>
+                <dt><h4>Triangulo Congruente</h4></dt>
+                <dd>Significa que dos triángulos o más son exactamente iguales en forma y tamaño, sin importar si están girados o en distinta posición.</dd>
+            </dl><br>
+            <img src="Congruentes.png" alt="es una imagen"><ul>
+                <li><h5>Lado-Lado-Lado:</h5>Los dos triángulos tienen sus tres lados con exactamente la misma longitud.</li>
+                <li><h5>Lado-Ángulo-Lado:</h5>Tiene dos lados de igual medida y el ángulo comprendido entre ellos es idéntico.</li>
+                <li><h5>Ángulo-Lado-Ángulo:</h5>Tiene un lado de igual medida y dos ángulos ubicados en los extremos de ese lado son iguales.</li>
+            </ul></li>
+        </ol>
+        <hr>
+        <h2 id="PolarRect">Coordenadas Rectangulares y Polares</h2>
+        <ol>
+            <li><h5>Coordenada:</h5>Número que indica la posición de un punto respecto a un sistema de referencia</li>
+            <li><h5>Par ordenado:</h5>Conjunto de dos coordenadas (x,y) donde el orden importa. El primero es x y el segundo es y</li>
+            <li><h5>Abscisa:</h5>Es la coordenada x, la horizontal</li>
+            <li><h5>Ordenada:</h5>Es la coordenada y, la vertical</li>
+            <li><h5>Punto:</h5>Es una posición en el plano, sin tamaño, se representa con un par ordenado</li>
+            <li><h5>Polo:</h5>Es el origen del plano polar. Es el equivalente al (0,0) del plano cartesiano. Desde ahí se miden todas las distancias</li>
+            <li><h5>Argumento:</h5>Es el ángulo θ que forma el punto con el eje polar, se mide en grados o radianes, antihorario desde el eje polar</li>
+            <li><h5>Coordenada rectangular:</h5>Es la forma (x,y). También se le dice cartesiana <br>
+                    x = distancia horizontal <br>
+                    y = distancia vertical</li>
+            <li><h5>Coordenada polar:</h5>Es la forma (r, θ) <br>
+                    r = distancia al polo <br>
+                    θ = argumento (ángulo)</li>
+            <li><h5>Plano Cartesiano:</h5>Formado por 2 rectas perpendiculares: eje x y eje y. Se cortan en el origen (0,0), divide en 4 cuadrantes</li>
+            <br>
+            <img src="Cartesiano.png" alt="es una imagen">
+            <li><h5>Plano Polar:</h5>Formado por un punto (polo) y un rayo eje polar. Los puntos se localizan por distancia y ángulo, no por x y y</li>
+            <br>
+            <img src="Polar.png" alt="es una imagen">
+        </ol>
+        <hr>
+        <h2 id="convRectPol">Conversion de coordenadas rectangulares a polares y viceversa</h2>
+        <form id="conv2" onsubmit="return false">
+            <fieldset>
+                <legend>Rectangular => Polar</legend>
+                X:
+                <input type="number" name="x" id="x" step="any"><br><br>
+                Y:
+                <input type="number" name="y" id="y" step="any">
+                <br><br>
+                <button onclick="rectAPolar()">Convertir</button><br>
+                <button type="reset">Limpiar</button>
+                <br><br>
+                r:
+                <input type="number" name="r" id="r" step="any" readonly><br><br>
+                θ:
+                <input type="number" name="theta" id="theta" step="any" readonly>
+            </fieldset>
+            <fieldset>
+                <legend>Polar => Rectangular</legend>
+                r:
+                <input type="number" name="r2" id="r2" step="any"><br><br>
+                θ:
+                <input type="number" name="theta2" id="theta2" step="any">
+                <br><br>
+                <button onclick="polarARect()">Convertir</button><br>
+                <button type="reset">Limpiar</button>
+                <br><br>
+                X:
+                <input type="number" name="x2" id="x2" step="any" readonly><br><br>
+                Y:
+                <input type="number" name="y2" id="y2" step="any" readonly>
+            </fieldset>
+        </form>
+        <script src="conversion1.js"></script>
+        <script src="polar.js"></script>
+    </body>
+</html>
